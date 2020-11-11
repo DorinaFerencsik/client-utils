@@ -6,7 +6,7 @@
     "lint": "ng lint"
   },
   "private": true,
-  "dependencies": {
+  "peerDependencies": {
     "@angular/animations": "~9.1.11",
     "@angular/common": "~9.1.11",
     "@angular/compiler": "~9.1.11",
@@ -37,5 +37,11 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~3.8.3"
+  },
+  "dependencies": {
+    "@angular/animations": "^9.0.0 || ^10.0.0-0",
+    "@angular/cdk": "~9.2.1",
+    "@angular/forms": "^9.0.0 || ^10.0.0-0",
+    "@angular/material": "~9.2.1"
   }
 }
