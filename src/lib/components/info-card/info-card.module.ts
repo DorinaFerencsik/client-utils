@@ -1,11 +1,15 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
+
+import { VendorModule } from '../vendor.module';
+
 import { InfoCardComponent } from './info-card.component';
 
 @NgModule({
   declarations: [InfoCardComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    VendorModule,
   ],
   exports: [InfoCardComponent],
 })
