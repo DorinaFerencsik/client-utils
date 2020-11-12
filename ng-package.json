@@ -3,5 +3,6 @@
   "dest": "../dist/client-utils",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "whitelistedNonPeerDependencies": ["."]
 }
